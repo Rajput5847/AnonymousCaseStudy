@@ -22,6 +22,14 @@ btn.addEventListener("click", function () {
     duration: 0.7,
     opacity:1
   }, "+=11.3")
+  gsap.to("#case", {
+    delay: 20,
+    backgroundColor: "black"
+  })
+  gsap.to("#case p", {
+    delay: 20,
+    color: "white"
+  })
   // tl.from("#case", {
   //   zIndex: -999999,
   //   delay: 15,
